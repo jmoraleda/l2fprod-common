@@ -3,7 +3,7 @@
 
   <property file="build.properties" />
 
-  <taskdef name="jreleaseinfo" 
+  <taskdef name="jreleaseinfo"
            classname="ch.oscg.jreleaseinfo.anttask.JReleaseInfoAntTask">
     <classpath>
       <pathelement location="lib/jreleaseinfo-1.2.0.jar"/>
@@ -59,17 +59,6 @@
           style="make-components.xsl"/>
   </target>
 
-  <target name="maven.prepare" depends="init">
-    <xslt in="components.xml"
-          out="maven/assembly-bin.xml"
-          style="make-assembly.xsl">
-    </xslt>
-    <xslt in="components.xml"
-          out="null.html"
-          style="make-pom.xsl" force="yes">
-      <param name="VERSION" expression="${version}"/>
-    </xslt>
-  </target>
   <!--
     Get some helpers from the web
   -->
