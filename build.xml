@@ -99,7 +99,7 @@ If you are behind a proxy or firewall, you can set the properties:
   	     dest="lib/jcalendar.jar"
   	     usetimestamp="yes"
   	     ignoreerrors="yes"/>
-        <get src="http://nachocalendar.sourceforge.net/demo/nachocalendar-0.21.jar"
+        <get src="http://nachocalendar.sourceforge.net/demo/nachocalendar-0.25.jar"
   	     dest="lib/nachocalendar.jar"
   	     usetimestamp="yes"
   	     ignoreerrors="yes"/>

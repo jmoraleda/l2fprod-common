@@ -77,7 +77,7 @@
                 <configuration>
                     <groupId>net.sf.nachocalendar</groupId>
                     <artifactId>nachocalendar</artifactId>
-                    <version>0.21</version>
+                    <version>0.25</version>
                     <packaging>jar</packaging>
                     <file>../../lib/nachocalendar.jar</file>
                 </configuration>
@@ -102,7 +102,7 @@
     <dependency>
       <groupId>net.sf.nachocalendar</groupId>
       <artifactId>nachocalendar</artifactId>
-      <version>0.21</version>
+      <version>0.25</version>
     </dependency>
   </dependencies>
 </project>
