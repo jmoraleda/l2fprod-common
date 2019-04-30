@@ -29,12 +29,12 @@
            -->
       <parent>
         <artifactId>l2fprod-common-all</artifactId>
-        <groupId>com.l2fprod.common</groupId>
+        <groupId>io.github.jmoraleda</groupId>
         <version><xsl:value-of select="$VERSION"/></version>
         <relativePath>../../pom.xml</relativePath>
       </parent>
       <modelVersion>4.0.0</modelVersion>
-      <groupId>com.l2fprod.common</groupId>
+      <groupId>io.github.jmoraleda</groupId>
       <artifactId>l2fprod-common-<xsl:value-of select="@name"/></artifactId>
       <name><xsl:value-of select="@name"/></name>
       <version><xsl:value-of select="$VERSION"/></version>
@@ -115,7 +115,7 @@
       <dependencies>
         <xsl:for-each select="depend">
           <dependency>
-            <groupId>com.l2fprod.common</groupId>
+            <groupId>io.github.jmoraleda</groupId>
             <artifactId>l2fprod-common-<xsl:value-of select="."/></artifactId>
             <version><xsl:value-of select="$VERSION"/></version>
             <scope>compile</scope>
