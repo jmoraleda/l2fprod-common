@@ -9,6 +9,11 @@
     provides the developer community with these missing components, components inspired from modern
     user interfaces. It provides a PropertySheet component, a collapsible task pane, a button bar, a
     font chooser, a directory chooser.</description>
+  <properties>
+    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
   <issueManagement>
     <system>bugzilla</system>
     <url>https://l2fprod-common.dev.java.net/servlets/ProjectIssues</url>
