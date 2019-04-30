@@ -12,6 +12,13 @@
   <name>tasks</name>
   <version>7.4-SNAPSHOT</version>
   <description>tasks</description>
+  <dependencies>
+    <dependency>
+      <groupId>com.l2fprod.common</groupId>
+      <artifactId>l2fprod-common-shared</artifactId>
+      <version>${version}</version>
+    </dependency>
+  </dependencies>
   <build>
     <sourceDirectory>target/filteredsrc</sourceDirectory>
     <resources>
